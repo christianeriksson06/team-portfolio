@@ -39,30 +39,71 @@ nav a.active {
   border-bottom: 2px solid #3498db;
 }
 main {
-    min-height: 60vh;
-    padding: 2rem;
+  min-height: 60vh;
+  padding: 2rem;
 }
 
 footer {
-    background: #2c3e50;
-    color: white;
-    padding: 2rem;
-    text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
 footer p {
-    margin: 0.5rem 0;
+  margin: 0.5rem 0;
 }
 .social-links {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .social-links a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
 }
 
 .social-links a:hover {
-    color: #3498db;
+  color: #3498db;
+}
+
+#about {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#about > p {
+  color: #7f8c8d;
+  margin-bottom: 2rem;
+}
+
+.team-members {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.member {
+  background: #ecf0f1;
+  padding: 2rem;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+.member h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.member p {
+  color: #7f8c8d;
+  margin: 0.25rem 0;
 }
