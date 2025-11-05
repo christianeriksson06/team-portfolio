@@ -68,25 +68,25 @@ main {
   padding: 2rem;
 }
 .stats {
-    display: flex;
-    justify-content: space-around;
-    padding: 3rem 2rem;
-    background: #ecf0f1;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background: #ecf0f1;
 }
 
 .stat {
-    text-align: center;
+  text-align: center;
 }
 
 .stat h3 {
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
 }
 
 .stat p {
-    color: #7f8c8d;
-    font-size: 1rem;
+  color: #7f8c8d;
+  font-size: 1rem;
 }
 
 footer {
@@ -212,30 +212,54 @@ footer p {
 }
 
 .newsletter {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .newsletter h3 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .newsletter form {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .newsletter input {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }
 
 .newsletter button {
-    background: #3498db;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#skills {
+  max-width: 1000px;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+#skills h2 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.skill-card {
+  background: #ecf0f1;
+  padding: 2rem;
+}
+
+.skill-card h3 {
+  color: #2c3e50;
 }
